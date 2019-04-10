@@ -48,4 +48,5 @@ def email():
 
 logger.info('STARTING APP, TRY IT OUT!!!')
 
-flask_app.run(debug=True, use_reloader=True)
+if __name__ == '__main__':
+    flask_app.run(debug=True, use_reloader=True)
